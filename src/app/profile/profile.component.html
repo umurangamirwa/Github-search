@@ -3,7 +3,22 @@
     <h1>GitHub Search</h1>
   </div>
   <app-profile-form></app-profile-form>
-  <a href="{{user.html_url}}" class="btn btn-success" id="view">View Profile</a>
-
-
+  <a href="{{user.html_url}}" class="btn btn-success" id="view">Submit</a>
+ 
+  <div class="col-md-6">
+    <table>
+    <tr>
+     <td >Github username: </td>
+     <td class="label">{{user.login}}</td>
+    </tr>
+    <tr>
+     <td >Repositories: </td>
+     <td class="label">{{user.public_repos}}</td>
+    </tr>
+   </table>
+  </div>
 </div>
+
+
+ 
+

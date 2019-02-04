@@ -5,17 +5,8 @@ export const environment = {
   production: false,
   apiUrl: 'https://api.github.com/users/',
   apikey: '?access_token=21228c0fb965c8304fa76422dff3feeff6273646',
-  apiRepokey: '/repos?access_token=4e506891c065d69bf641bbe51727e32d407658e2',
+  apiRepokey: '/repos?access_token=21228c0fb965c8304fa76422dff3feeff6273646',
 };
-
-
-
-
-// export const environment = {
-//   production: false
-//   api_key:"21228c0fb965c8304fa76422dff3feeff6273646"
-  
-// };
 
 /*
  * For easier debugging in development mode, you can import the following file
@@ -25,3 +16,9 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
+
+
+
+
+

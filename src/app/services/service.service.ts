@@ -17,7 +17,7 @@ export class ServiceService {
   items;
   constructor(private http:HttpClient) { 
     console.log ("service is now ready!");
-    this.username = 'kayitesijackie';
+    this.username = 'umurangamirwa';
     this.user = new User (' ',' ',' ',' ',' ',0,' ');
     this.repo = new Repo (' ', ' ', ' ', ' ', ' ');
   }

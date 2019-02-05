@@ -45,9 +45,9 @@ Thumbs.db
 export const environment = {
   production: false,
   apiUrl: 'https://api.github.com/users/',
-  apikey: '?access_token=0bab83c7d530f0250730bef55ced5df9a32fb379',
-  apiRepokey: '/repos?order=created&sort=asc?access_token=0bab83c7d530f0250730bef55ced5df9a32fb379',
+  apikey: '?access_token=8a77cfae4110e5d5ed090bfab0b5d812370a9cb7',
+  apiRepokey: '/repos?order=created&sort=asc?access_token=8a77cfae4110e5d5ed090bfab0b5d812370a9cb7',
   apiLink: 'https://api.github.com/search/repositories?q=',
-  apiRepos: '&per_page=0bab83c7d530f0250730bef55ced5df9a32fb379'
+  apiRepos: '&per_page=8a77cfae4110e5d5ed090bfab0b5d812370a9cb7'
 };
 

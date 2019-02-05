@@ -11,6 +11,8 @@ export class User {
         public html_url:string ,
         public following:number , 
         public followers:number , 
-        public created_at:Date) {}
+        public created_at:Date) {
+            
+        }
   
 }

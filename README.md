@@ -34,5 +34,4 @@ This application is done so that i can help people to make a research online for
 
 ## License
 
-* MIT Copyright (c) 2019 
-* Marie claire 
+* MIT Copyright (c) 2019 Marie claire 

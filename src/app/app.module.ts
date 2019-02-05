@@ -8,12 +8,16 @@ import {FormsModule} from '@angular/forms';
 
 import { ProfileComponent } from './profile/profile.component';
 import { ProfileFormComponent } from './profile-form/profile-form.component';
+import { StrikethroughDirective } from './strikethrough.directive';
+import { DateCountPipe } from './date-count.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProfileComponent,
-    ProfileFormComponent
+    ProfileFormComponent,
+    StrikethroughDirective,
+    DateCountPipe
   ],
   imports: [
     BrowserModule,

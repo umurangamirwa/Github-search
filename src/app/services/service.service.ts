@@ -22,6 +22,7 @@ export class ServiceService {
     this.repo = new Repo (' ', ' ', ' ', ' ', ' ');
   }
   getProfileInfo(username){
+    console.log(username);
     interface ApiResponse {
       name: string;
       login: string;
@@ -34,7 +35,7 @@ export class ServiceService {
 
   }
   const promise = new Promise((resolve, reject) => {
-    this.http.get<ApiResponse>(environment.apiUrl + username + environment.apikey).toPromise().then(profile => {
+    this.http.get<ApiResponse>('https://api.github.com/users/' + username + "?access_token="+environment.apikey).toPromise().then(profile => {
          this.user.name = profile.name;
         this.user.login = profile.login;
         this.user.avatar_url = profile.avatar_url;
@@ -43,7 +44,7 @@ export class ServiceService {
         this.user.public_repos = profile.public_repos;
         this.user.html_url = profile.html_url;
 
-        console.log(profile);
+        
          resolve();
     },
     
@@ -59,7 +60,7 @@ getRepoInfo(username) {
     html_url: string;
     clone_url: string;
 }
-this.http.get<ApiResponse>(environment.apiUrl + username + environment.apiRepokey).subscribe(response => {
+this.http.get<ApiResponse>('https://api.github.com/users/' + username + "/repos?access_token=" +environment.apiRepokey).subscribe(response => {
   
     this.items = response;  
   });

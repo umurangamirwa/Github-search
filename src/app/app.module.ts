@@ -4,6 +4,7 @@ import { ServiceService } from './services/service.service';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
+import {FormsModule} from '@angular/forms';
 
 import { ProfileComponent } from './profile/profile.component';
 import { ProfileFormComponent } from './profile-form/profile-form.component';
@@ -17,7 +18,8 @@ import { ProfileFormComponent } from './profile-form/profile-form.component';
   imports: [
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [ServiceService],
   bootstrap: [AppComponent]

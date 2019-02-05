@@ -7,7 +7,7 @@ import{ ServiceService } from '../services/service.service';
 })
 export class ProfileFormComponent implements OnInit {
   submitSearch(name) {
-    this.ServiceService.getProfileInfo(name.target.value);
+    this.profileService.getProfileInfo(name.target.value);
     this.repoService.getRepoInfo(name.target.value);
   }
 

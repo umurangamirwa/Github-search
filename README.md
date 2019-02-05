@@ -28,10 +28,11 @@ This application is done so that i can help people to make a research online for
 
 
 ## contacts:
-Email: umurangamclaire@gmail.com
-Phone: 0781055307
-Contact address:Rwanda
+* Email: umurangamclaire@gmail.com
+* Phone: 0781055307
+* Contact address:Rwanda
 
 ## License
-MIT Copyright (c) 2019 
-Marie claire 
+
+* MIT Copyright (c) 2019 
+* Marie claire 

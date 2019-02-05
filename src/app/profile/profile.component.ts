@@ -8,10 +8,12 @@ import {User} from '../user';
   providers:[ServiceService]
 })
 export class ProfileComponent implements OnInit {
+user: User;
 
-  constructor() { }
-
+  constructor(private profileService: ServiceService, public repoService: ServiceService) { 
+  this.user = this.profileService.user;}
   ngOnInit() {
+    this.user = this.profileService.user;
   }
 
 }

@@ -14,7 +14,7 @@ a{
     color: rgb(132, 189, 238);
 }
 table{
-    border: 2px solid black;
+    border: 2px solid rgb(243, 231, 231);;
     border-collapse: collapse;
     border-style: outset;
     border-width:5px;
@@ -23,8 +23,11 @@ table{
     text-align: center;
   }
   td{
-    border: 1px solid #af7b7b;
     text-align: left;
     padding: 10px;
    }
+
+  
+   
+  
    

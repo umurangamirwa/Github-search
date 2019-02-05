@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import{ ServiceService } from '../../services/profile.service';
+import{ ServiceService } from '../services/service.service';
 @Component({
   selector: 'app-profile-form',
   templateUrl: './profile-form.component.html',

@@ -16,7 +16,7 @@ A web browser(Chrome is most recommendable).
 ## Development server
 Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 ## BEHAVIOUR DRIVEN DEVELOPMENT(BDD)
-This application is done so that can help people to make a research online for anyone on GitHub. this one requires to input your username on github and then press button called ok and shows you the information of anyone you search like(their repositories,followers,following peaple,and also the date of when the user has been created).  
+This application is done so that can help people to make a research online for anyone on GitHub. this one requires to input your username on github and then press button called ok and shows you the information of anyone you search like(their repositories,followers,following peaple,and also the date of when the user has been created).for search button will direct you already to the Github account for anyone you enter.
 
 ## Technologies Used
 * HTML

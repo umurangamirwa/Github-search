@@ -14,6 +14,7 @@ user: User;
   this.user = this.profileService.user;}
   ngOnInit() {
     this.user = this.profileService.user;
+    console.log(this.user)
   }
 
 }

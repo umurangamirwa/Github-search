@@ -31,11 +31,12 @@ export class ServiceService {
       location: string;
       public_repos: number;
       html_url: string;
+      created_at:Date;
     // return this.http.get("https://api.github.com/users/" + this.username)
 
   }
   const promise = new Promise((resolve, reject) => {
-    this.http.get<ApiResponse>('https://api.github.com/users/' + username + "?access_token=06bf2cd76a3b02d9496ad544569c2026abfaf57b").toPromise().then(profile => {
+    this.http.get<ApiResponse>('https://api.github.com/users/' + username + "?access_token=4e506891c065d69bf641bbe51727e32d407658e2").toPromise().then(profile => {
          this.user.name = profile.name;
         this.user.login = profile.login;
         this.user.avatar_url = profile.avatar_url;
@@ -43,7 +44,7 @@ export class ServiceService {
         this.user.location = profile.location;
         this.user.public_repos = profile.public_repos;
         this.user.html_url = profile.html_url;
-
+        this.user.created_at= profile.created_at;
         
          resolve();
     },
@@ -59,8 +60,9 @@ getRepoInfo(username) {
     description: string;
     html_url: string;
     clone_url: string;
+    created_at:Date;
 }
-this.http.get<ApiResponse>('https://api.github.com/users/' + username + "/repos?access_token=06bf2cd76a3b02d9496ad544569c2026abfaf57b").subscribe(response => {
+this.http.get<ApiResponse>('https://api.github.com/users/' + username + "/repos?access_token=4e506891c065d69bf641bbe51727e32d407658e2").subscribe(response => {
   
     this.items = response;  
   });

@@ -4,8 +4,8 @@
 export const environment = {
   production: false,
   apiUrl: 'https://api.github.com/users/',
-  apikey: '06bf2cd76a3b02d9496ad544569c2026abfaf57b',
-  apiRepokey: '06bf2cd76a3b02d9496ad544569c2026abfaf57b',
+  apikey: '4e506891c065d69bf641bbe51727e32d407658e2',
+  apiRepokey: '4e506891c065d69bf641bbe51727e32d407658e2',
 };
 
 /*

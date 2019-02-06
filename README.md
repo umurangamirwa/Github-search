@@ -25,7 +25,7 @@ This application is done so that can help people to make a research online for a
 * Angular(Typescript).
 * Support and contact details
 ## link to live site on GitHub Pages:
-
+you can click also here:https://umurangamirwa.github.io/Github-search/
 
 ## contacts:
 * Email: umurangamclaire@gmail.com
